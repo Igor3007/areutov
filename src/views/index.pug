@@ -1,0 +1,25 @@
+extends layouts/main
+ 
+block variables
+  include ../data/data.pug
+  - const title = "Артем Реутов – Шоу-проект скрипача Артема Reutova"
+ 
+
+block main
+
+  include ../blocks/modules/main-block/main-block.pug
+  include ../blocks/modules/donate/donate.pug
+  include ../blocks/modules/youtube-block/youtube-block.pug
+  include ../blocks/modules/tiktok-block/tiktok-block.pug
+  include ../blocks/modules/inst-block/inst-block.pug
+
+  +main-block
+  +donate
+  +youtube-block
+  +tiktok-block
+  +inst-block
+
+ 
+block scripts
+  script(src="/js/vendor.js") 
+  script(src="/js/common.js") 
