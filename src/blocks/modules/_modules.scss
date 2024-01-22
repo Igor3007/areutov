@@ -1,10 +1,5 @@
 @import "common/header/header";
 @import "common/footer/footer";
-@import "common/page-404/page-404.scss";
-@import "common/main-menu/main-menu.scss";
 
-@import "main-block/main-block.scss";
-@import "donate/donate.scss";
-@import "youtube-block/youtube-block.scss";
-@import "tiktok-block/tiktok-block.scss";
-@import "inst-block/inst-block.scss";
+@import "./object-estate/object-estate.scss";
+@import "./page-presentation/page-presentation.scss";

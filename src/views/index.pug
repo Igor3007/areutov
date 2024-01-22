@@ -2,22 +2,13 @@ extends layouts/main
  
 block variables
   include ../data/data.pug
-  - const title = "Артем Реутов – Шоу-проект скрипача Артема Reutova"
+  - const title = "Metrium"
  
 
 block main
-
-  include ../blocks/modules/main-block/main-block.pug
-  include ../blocks/modules/donate/donate.pug
-  include ../blocks/modules/youtube-block/youtube-block.pug
-  include ../blocks/modules/tiktok-block/tiktok-block.pug
-  include ../blocks/modules/inst-block/inst-block.pug
-
-  +main-block
-  +donate
-  +youtube-block
-  +tiktok-block
-  +inst-block
+  include ../blocks/modules/page-presentation/page-presentation.pug
+  +page-presentation()
+ 
 
  
 block scripts

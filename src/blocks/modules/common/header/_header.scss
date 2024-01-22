@@ -1,40 +1,10 @@
-header {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    z-index: 5;
-}
-
 .header {
+    padding: 15px;
+    background: #fff;
+    border-radius: 10px;
     display: flex;
-    align-items: center;
-    padding: 10px 0;
-    justify-content: center;
 
-    &__lang,
-    &__menu {
-        width: 52px;
-        height: 52px;
-        display: flex;
-        border: 2px solid #ffffff30;
-        border-radius: 50%;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-
-        &:hover {
-            border-color: #fff;
-        }
-    }
-
-    &__menu {
-        margin-right: 15px;
-    }
-
-    &__lang {
-        & span {
-            font-weight: 700;
-        }
+    &__phone {
+        margin-left: auto;
     }
 }
